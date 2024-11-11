@@ -78,6 +78,8 @@ For Admin role -> /employees/** (can able to perform all functions)
 For Manager role -> /view/** (can view all employee details/ access by id)
 For Employee role -> /profile/{id} (only view by id)
 
+For testing purpose can use postman
+additional if API documentaion need can use Swagger UI
 
 Error Handling
 The system handles errors gracefully. For example:
