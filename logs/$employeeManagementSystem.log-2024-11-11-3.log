@@ -1,0 +1,5 @@
+2024-11-11T23:01:36.375+05:30  INFO 13540 --- [employeeManagementSystem] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-11T23:01:36.451+05:30  INFO 13540 --- [employeeManagementSystem] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-11T23:01:36.786+05:30  INFO 13540 --- [employeeManagementSystem] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-11-11T23:01:37.363+05:30  WARN 13540 --- [employeeManagementSystem] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-11T23:01:37.383+05:30  INFO 13540 --- [employeeManagementSystem] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userService

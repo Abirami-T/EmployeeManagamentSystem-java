@@ -1,0 +1,10 @@
+2024-11-11T23:01:37.858+05:30  INFO 13540 --- [employeeManagementSystem] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8083 (http) with context path '/'
+2024-11-11T23:01:37.870+05:30  INFO 13540 --- [employeeManagementSystem] [main] .i.e.EmployeeManagementSystemApplication : Started EmployeeManagementSystemApplication in 5.193 seconds (process running for 5.56)
+2024-11-11T23:02:09.627+05:30  INFO 13540 --- [employeeManagementSystem] [http-nio-8083-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-11T23:02:09.628+05:30  INFO 13540 --- [employeeManagementSystem] [http-nio-8083-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-11-11T23:02:09.641+05:30  INFO 13540 --- [employeeManagementSystem] [http-nio-8083-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-11-12T00:24:56.767+05:30  INFO 15248 --- [employeeManagementSystem] [main] .i.e.EmployeeManagementSystemApplication : Starting EmployeeManagementSystemApplication using Java 21.0.3 with PID 15248 (D:\ECLIPSE_WORKSPACE\employeeManagementSystem\target\classes started by ramit in D:\ECLIPSE_WORKSPACE\employeeManagementSystem)
+2024-11-12T00:24:56.794+05:30  INFO 15248 --- [employeeManagementSystem] [main] .i.e.EmployeeManagementSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2024-11-12T00:24:57.705+05:30  INFO 15248 --- [employeeManagementSystem] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-12T00:24:57.797+05:30  INFO 15248 --- [employeeManagementSystem] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 80 ms. Found 3 JPA repository interfaces.
+2024-11-12T00:24:58.579+05:30  INFO 15248 --- [employeeManagementSystem] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8083 (http)

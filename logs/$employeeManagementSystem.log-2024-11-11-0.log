@@ -1,0 +1,34 @@
+2024-11-11T23:00:06.885+05:30  INFO 10432 --- [employeeManagementSystem] [main] .i.e.EmployeeManagementSystemApplication : Starting EmployeeManagementSystemApplication using Java 21.0.3 with PID 10432 (D:\ECLIPSE_WORKSPACE\employeeManagementSystem\target\classes started by ramit in D:\ECLIPSE_WORKSPACE\employeeManagementSystem)
+2024-11-11T23:00:06.893+05:30  INFO 10432 --- [employeeManagementSystem] [main] .i.e.EmployeeManagementSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2024-11-11T23:00:07.677+05:30  INFO 10432 --- [employeeManagementSystem] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-11T23:00:07.781+05:30  INFO 10432 --- [employeeManagementSystem] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 59 ms. Found 3 JPA repository interfaces.
+2024-11-11T23:00:08.465+05:30  INFO 10432 --- [employeeManagementSystem] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8083 (http)
+2024-11-11T23:00:08.487+05:30  INFO 10432 --- [employeeManagementSystem] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-11T23:00:08.489+05:30  INFO 10432 --- [employeeManagementSystem] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-11T23:00:08.559+05:30  INFO 10432 --- [employeeManagementSystem] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-11T23:00:08.560+05:30  INFO 10432 --- [employeeManagementSystem] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1609 ms
+2024-11-11T23:00:08.742+05:30  INFO 10432 --- [employeeManagementSystem] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-11T23:00:08.800+05:30  INFO 10432 --- [employeeManagementSystem] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-11T23:00:08.836+05:30  INFO 10432 --- [employeeManagementSystem] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-11T23:00:09.163+05:30  INFO 10432 --- [employeeManagementSystem] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-11T23:00:09.219+05:30  INFO 10432 --- [employeeManagementSystem] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-11T23:00:09.547+05:30  INFO 10432 --- [employeeManagementSystem] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5611bba
+2024-11-11T23:00:09.549+05:30  INFO 10432 --- [employeeManagementSystem] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-11T23:00:09.597+05:30  WARN 10432 --- [employeeManagementSystem] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-11T23:00:10.356+05:30  INFO 10432 --- [employeeManagementSystem] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-11T23:00:10.431+05:30  INFO 10432 --- [employeeManagementSystem] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-11T23:00:10.839+05:30  INFO 10432 --- [employeeManagementSystem] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-11-11T23:00:11.456+05:30  WARN 10432 --- [employeeManagementSystem] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-11T23:00:11.479+05:30  INFO 10432 --- [employeeManagementSystem] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userService
+2024-11-11T23:00:12.121+05:30  INFO 10432 --- [employeeManagementSystem] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8083 (http) with context path '/'
+2024-11-11T23:00:12.135+05:30  INFO 10432 --- [employeeManagementSystem] [main] .i.e.EmployeeManagementSystemApplication : Started EmployeeManagementSystemApplication in 5.663 seconds (process running for 6.019)
+2024-11-11T23:00:27.597+05:30  INFO 10432 --- [employeeManagementSystem] [http-nio-8083-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-11T23:00:27.598+05:30  INFO 10432 --- [employeeManagementSystem] [http-nio-8083-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-11-11T23:00:27.601+05:30  INFO 10432 --- [employeeManagementSystem] [http-nio-8083-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2024-11-11T23:00:45.269+05:30  INFO 10432 --- [employeeManagementSystem] [http-nio-8083-exec-6] c.i.e.controller.EmployeeController      : Getting all employees
+2024-11-11T23:00:45.269+05:30  INFO 10432 --- [employeeManagementSystem] [http-nio-8083-exec-6] c.i.e.service.EmployeeService            : Fetching all employees
+2024-11-11T23:01:33.075+05:30  INFO 13540 --- [employeeManagementSystem] [main] .i.e.EmployeeManagementSystemApplication : Starting EmployeeManagementSystemApplication using Java 21.0.3 with PID 13540 (D:\ECLIPSE_WORKSPACE\employeeManagementSystem\target\classes started by ramit in D:\ECLIPSE_WORKSPACE\employeeManagementSystem)
+2024-11-11T23:01:33.080+05:30  INFO 13540 --- [employeeManagementSystem] [main] .i.e.EmployeeManagementSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2024-11-11T23:01:33.872+05:30  INFO 13540 --- [employeeManagementSystem] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-11T23:01:33.968+05:30  INFO 13540 --- [employeeManagementSystem] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 64 ms. Found 3 JPA repository interfaces.
+2024-11-11T23:01:34.570+05:30  INFO 13540 --- [employeeManagementSystem] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8083 (http)

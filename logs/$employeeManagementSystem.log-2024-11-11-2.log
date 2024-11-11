@@ -1,0 +1,6 @@
+2024-11-11T23:01:34.919+05:30  INFO 13540 --- [employeeManagementSystem] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-11T23:01:35.201+05:30  INFO 13540 --- [employeeManagementSystem] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-11T23:01:35.236+05:30  INFO 13540 --- [employeeManagementSystem] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-11T23:01:35.591+05:30  INFO 13540 --- [employeeManagementSystem] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7a3643e3
+2024-11-11T23:01:35.593+05:30  INFO 13540 --- [employeeManagementSystem] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-11T23:01:35.637+05:30  WARN 13540 --- [employeeManagementSystem] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)

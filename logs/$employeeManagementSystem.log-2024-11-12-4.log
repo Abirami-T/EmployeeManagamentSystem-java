@@ -1,0 +1,6 @@
+2024-11-12T00:25:02.368+05:30  INFO 15248 --- [employeeManagementSystem] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userService
+2024-11-12T00:25:03.234+05:30  INFO 15248 --- [employeeManagementSystem] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8083 (http) with context path '/'
+2024-11-12T00:25:03.247+05:30  INFO 15248 --- [employeeManagementSystem] [main] .i.e.EmployeeManagementSystemApplication : Started EmployeeManagementSystemApplication in 6.895 seconds (process running for 7.241)
+2024-11-12T00:26:06.224+05:30  INFO 15248 --- [employeeManagementSystem] [http-nio-8083-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-12T00:26:06.225+05:30  INFO 15248 --- [employeeManagementSystem] [http-nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-11-12T00:26:06.228+05:30  INFO 15248 --- [employeeManagementSystem] [http-nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms

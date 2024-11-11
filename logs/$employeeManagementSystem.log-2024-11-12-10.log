@@ -1,0 +1,7 @@
+2024-11-12T00:33:14.907+05:30  INFO 15248 --- [employeeManagementSystem] [http-nio-8083-exec-6] c.i.e.controller.EmployeeController      : Creating employee: abi
+2024-11-12T00:33:14.907+05:30  INFO 15248 --- [employeeManagementSystem] [http-nio-8083-exec-6] c.i.e.service.EmployeeService            : Creating new employee: abi
+2024-11-12T00:33:14.933+05:30  INFO 15248 --- [employeeManagementSystem] [http-nio-8083-exec-6] c.i.e.service.EmployeeService            : Employee created successfully with ID: 27
+2024-11-12T00:33:21.185+05:30  INFO 15248 --- [employeeManagementSystem] [http-nio-8083-exec-7] c.i.e.controller.EmployeeController      : Getting all employees
+2024-11-12T00:33:21.185+05:30  INFO 15248 --- [employeeManagementSystem] [http-nio-8083-exec-7] c.i.e.service.EmployeeService            : Fetching all employees
+2024-11-12T00:33:27.266+05:30  INFO 15248 --- [employeeManagementSystem] [http-nio-8083-exec-8] c.i.e.controller.EmployeeController      : Getting employee with ID: 15
+2024-11-12T00:33:27.277+05:30  INFO 15248 --- [employeeManagementSystem] [http-nio-8083-exec-8] c.i.e.service.EmployeeService            : Fetching employee with ID: 15
