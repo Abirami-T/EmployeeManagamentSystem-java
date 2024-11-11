@@ -1,43 +1,55 @@
-Employee Management System
-Overview
-This Employee Management System is a Spring Boot application that allows you to manage employees within an organization. 
+# Employee Management System
 
-This project uses Spring Security for authentication and authorization, Spring Data JPA for database interaction, MySQL for data persistence, and Postman for API testing.
+## Overview
 
-Features
-CRUD operations for managing employee data.
-Role-based access control (Admin, Manager, Employee).
-Ability to filter employees based on department, job title, and salary.
-APIs for employee statistics (employee count by department and job title).
-Prerequisites
-JDK 21 installed.
-Eclipse IDE used(any code editor can use)
-Maven (for building the project).
-MySQL database setup.
-Postman for testing the APIs.
+This **Employee Management System** is a **Spring Boot** application that allows you to manage employees within an organization. 
 
-Project Setup
+This project uses:
+- **Spring Security** for authentication and authorization.
+- **Spring Data JPA** for database interaction.
+- **MySQL** for data persistence.
+- **Postman** for API testing.
 
-step 1. Clone the Repository
+## Features
+
+- **CRUD operations** for managing employee data.
+- **Role-based access control** (Admin, Manager, Employee).
+- Ability to filter employees based on department, job title, and salary.
+- APIs for **employee statistics** (employee count by department and job title).
+
+## Prerequisites
+
+- **JDK 21** installed.
+- **Eclipse IDE** (any code editor can be used).
+- **Maven** (for building the project).
+- **MySQL database** setup.
+- **Postman** for testing the APIs.
+
+## Project Setup
+
+### Step 1: Clone the Repository
+
+```bash
 git clone https://github.com/Abirami-T/EmployeeManagamentSystem-java.git
 cd employee-management-system
+```
 
-step 2. Set Up MySQL Database
+### Step 2: Set Up MySQL Database
 Make sure MySQL is installed and running. Then create a database:
-CREATE DATABASE employee_system;
+```CREATE DATABASE employee_system```;
 
-3. Configure Database Connection
-In your application.properties, 
+### Step 3. Configure Database Connection
+In your ```application.properties```, 
 configure the database connection, Logging and Monitoring,
 
 
-
+```bash
 # Database Configuration
 spring.application.name=employeeManagementSystem
 server.port=8080
 spring.datasource.url=jdbc:mysql://localhost:3306/employee_system
 spring.datasource.username=root
-spring.datasource.password=Abirami@0202
+spring.datasource.password=YOUR_MYSQL_PASSWORD
 spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 
 #Hibernate Configuration
@@ -59,33 +71,34 @@ logging.level.com.incture.employeeManagementSystem.service=trace
 management.endpoints.web.base-path=/admin
 management.endpoints.web.exposure.include=*
 management.endpoint.health.show-details=always
+```
 
-Step 4. Start the springboot Application
+### Step 4. Start the springboot Application
 Build and run the application using Maven
 
-Step 5. Authentication and Authorization
+### Step Step 5. Authentication and Authorization
 Admin Role: Full access to all employee endpoints(crud).
 Manager Role: Limited access to certain view endpoints.
 Employee Role: Access to only personal profile data.
 
-post - /auth/register - register user 
-post - /auth/login - Login with session management security
-get - /auth/logout - logout the session
+post - ```/auth/register``` - register user 
+post - ```/auth/login ```- Login with session management security
+get - ```/auth/logout``` - logout the session
 
 based on logged in user's role api endpoint will have access
 
-For Admin role -> /employees/** (can able to perform all functions)
-For Manager role -> /view/** (can view all employee details/ access by id)
-For Employee role -> /profile/{id} (only view by id)
+For Admin role -> ```/employees/**``` (can able to perform all functions)
+For Manager role -> ```/view/**``` (can view all employee details/ access by id)
+For Employee role -> ```/profile/{id}``` (only view by id)
 
 For testing purpose can use postman
 additional if API documentaion need can use Swagger UI
 
-Error Handling
+**Error Handling**
 The system handles errors gracefully. For example:
 
-Employee not found: If an employee with a given ID does not exist, the system returns a 404 Not Found error.
-Internal Server Error: In case of unexpected issues, the system returns a 500 Internal Server Error.
+```Employee not found```: If an employee with a given ID does not exist, the system returns a 404 Not Found error.
+```Internal Server Error```: In case of unexpected issues, the system returns a 500 Internal Server Error.
 
-Conclusion
+**Conclusion**
 This Employee Management System provides a full-fledged backend with CRUD operations, filtering, and statistics. It is designed with Spring Boot, Spring Security, and can be tested with Postman for easy interaction with the API.
